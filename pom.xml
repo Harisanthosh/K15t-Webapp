@@ -95,6 +95,9 @@
                 </executions>
                 <configuration>
                     <mainClass>${start-class}</mainClass>
+                    <processTypes>
+                        <web>java -jar target/k15t-full-stack-dev-tasks-0.1.0.jar</web>
+                    </processTypes>
                 </configuration>
             </plugin>
             <plugin>
@@ -113,6 +116,11 @@
                 <configuration>
                     <encoding>UTF-8</encoding>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.heroku.sdk</groupId>
+                <artifactId>heroku-maven-plugin</artifactId>
+                <version>3.0.3</version>
             </plugin>
         </plugins>
     </build>
