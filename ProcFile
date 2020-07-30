@@ -1,0 +1,2 @@
+web: java -Dserver.port=11583 $JAVA_OPTS -jar target/k15t-full-stack-dev-tasks-0.1.0.jar
+
