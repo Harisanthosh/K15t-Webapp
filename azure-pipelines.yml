@@ -30,3 +30,4 @@ steps:
       git checkout $(Build.SourceBranchName)
       git remote add heroku https://heroku:$(hat)@git.heroku.com/pacific-crag-83681.git
       git push heroku $(Build.SourceBranchName)
+
