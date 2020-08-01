@@ -26,10 +26,10 @@ public class RegistrationServiceTest
     public void newUserRegistration_thenUserCreated() throws RegistrationException
     {
         User user = new User();
-        user.setName("XYZ");
-        user.setEmail("gayathrisekar@gmail.com");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setName("Camrade");
+        user.setEmail("harisanthosh@gmail.com");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPassword("12345678");
         user.setPhone("0123456789");
         user.setCountry("DE");
@@ -41,10 +41,10 @@ public class RegistrationServiceTest
     public void saveUserRegistration() throws RegistrationException
     {
         User user = new User();
-        user.setName("XYZ");
-        user.setEmail("gayathrisekar1@gmail.com");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setName("Camrade");
+        user.setEmail("harisanthosh1@gmail.com");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPassword("12345678");
         user.setPhone("0123456789");
         user.setCountry("DE");
@@ -56,10 +56,10 @@ public class RegistrationServiceTest
     public void whenNameAlreadyExists_thenUserIsNotCreated() throws RegistrationException
     {
         User user = new User();
-        user.setName("XYZ");
-        user.setEmail("gayathrisekar2@gmail.com");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setName("Camrade");
+        user.setEmail("harisanthosh12@gmail.com");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPassword("12345678");
         user.setPhone("0123456789");
         user.setCountry("DE");

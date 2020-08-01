@@ -22,10 +22,10 @@ public class UserTest {
     @Test
     public void createUserWithValidInputs() {
         User user = new User();
-        user.setName("Gayathri");
-        user.setEmail("gayathrisekar@test.com");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setName("Hari");
+        user.setEmail("harisanthosh@test.com");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPassword("12345678");
         user.setPhone("0123456789");
         user.setCountry("DE");
@@ -36,10 +36,10 @@ public class UserTest {
     @Test
     public void createUserInvalidEmail() {
         User user = new User();
-        user.setName("Gayathri");
-        user.setEmail("gayathrisekar");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setName("Hari");
+        user.setEmail("harisanthosh");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPassword("12345678");
         user.setPhone("0123456789");
         user.setCountry("DE");
@@ -51,9 +51,9 @@ public class UserTest {
     public void createUserInvalidName() {
         User user = new User();
         user.setName("X");
-        user.setEmail("gayathrisekar");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setEmail("harisanthosh");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPassword("12345678");
         user.setPhone("0123456789");
         user.setCountry("DE");
@@ -64,10 +64,10 @@ public class UserTest {
     @Test
     public void createUserInvalidNameWithNumbers() {
         User user = new User();
-        user.setName("X1234");
-        user.setEmail("gayathrisekar@gmail.com");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setName("C123");
+        user.setEmail("harisanthosh@gmail.com");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPhone("0123456789");
         user.setPassword("12345678");
         user.setCountry("DE");
@@ -78,10 +78,10 @@ public class UserTest {
     @Test
     public void createUserInvalidPassword()  {
         User user = new User();
-        user.setName("X1234");
-        user.setEmail("gayathrisekar@gmail.com");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setName("Camrade");
+        user.setEmail("harisanthosh@gmail.com");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPassword("12");
         user.setPhone("0123456789");
         user.setCountry("DE");
@@ -92,10 +92,10 @@ public class UserTest {
     @Test
     public void createUserInvalidPhone() {
         User user = new User();
-        user.setName("X1234");
-        user.setEmail("gayathrisekar@gmail.com");
-        user.setAddress("12,xyz");
-        user.setCity("kornwestheim");
+        user.setName("Camrade");
+        user.setEmail("harisanthosh@gmail.com");
+        user.setAddress("12,naran");
+        user.setCity("stuttgart");
         user.setPassword("12");
         user.setPhone("012345678K()=9");
         user.setCountry("DE");

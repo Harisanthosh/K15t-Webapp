@@ -44,10 +44,10 @@ public class RegistrationControllerTest
   public void testSaveRegistration() throws Exception
   {
     User user = new User();
-    user.setName("Gayathri");
-    user.setEmail("gayathrisekar@test.com");
-    user.setAddress("12,xyz");
-    user.setCity("kornwestheim");
+    user.setName("Hari");
+    user.setEmail("harisanthosh@test.com");
+    user.setAddress("12,naran");
+    user.setCity("stuttgart");
     user.setPassword("12345678");
     user.setConfirmPassword("12345678");
     user.setPhone("0123456789");
@@ -69,10 +69,10 @@ public class RegistrationControllerTest
   @Test
   public void testGetAllRegisteredUsers() throws Exception {
     User user = new User();
-    user.setName("Gayathri");
-    user.setEmail("gayathrisekar11@test.com");
-    user.setAddress("12,xyz");
-    user.setCity("kornwestheim");
+    user.setName("Hari");
+    user.setEmail("harisanthosh@test.com");
+    user.setAddress("12,naran");
+    user.setCity("stuttgart");
     user.setPassword("12345678");
     user.setConfirmPassword("12345678");
     user.setPhone("0123456789");
@@ -80,10 +80,10 @@ public class RegistrationControllerTest
 
 
     User user1 = new User();
-    user1.setName("Gayathri");
-    user1.setEmail("gayathrisekar12@test.com");
-    user1.setAddress("12,xyz");
-    user1.setCity("kornwestheim");
+    user1.setName("Hari");
+    user1.setEmail("harisanthosh@test.com");
+    user1.setAddress("12,naran");
+    user1.setCity("stuttgart");
     user1.setPassword("12345678");
     user1.setConfirmPassword("12345678");
     user1.setPhone("0123456789");
@@ -107,18 +107,18 @@ public class RegistrationControllerTest
     Map<String,Object> resultMap =  result.getModelAndView().getModel();
     List<User> registrationNewList = (List<User>) resultMap.get("registeredUsers");
 
-    assertEquals("gayathrisekar11@test.com", registrationNewList.get(0).getEmail());
-    assertEquals("Gayathri", registrationNewList.get(0).getName());
+    assertEquals("harisanthosh@test.com", registrationNewList.get(0).getEmail());
+    assertEquals("Hari", registrationNewList.get(0).getName());
   }
 
   @Test
   public void testUserExistsRegistration() throws Exception
   {
     User user = new User();
-    user.setName("Gayathri");
-    user.setEmail("gayathrisekar123@test.com");
-    user.setAddress("12,xyz");
-    user.setCity("kornwestheim");
+    user.setName("Hari");
+    user.setEmail("harisanthosh@test.com");
+    user.setAddress("12,naran");
+    user.setCity("stuttgart");
     user.setPassword("12345678");
     user.setConfirmPassword("12345678");
     user.setPhone("0123456789");
