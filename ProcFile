@@ -1,2 +1,1 @@
 web: java -jar target/k15t-full-stack-dev-tasks-0.1.0.jar
-
