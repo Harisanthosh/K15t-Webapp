@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 /**
  * UserRepository to perform CRUD operations
  *
- * @author gayathri
+ * @author Hari
  */
 @Repository
 public interface RegistrationRepository extends JpaRepository<User, Long> {

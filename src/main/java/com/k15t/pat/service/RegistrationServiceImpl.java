@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 /**
  * Registration service to perform crud operations
  *
- * @author Gayathri
+ * @author Hari
  */
 @Service
 public class RegistrationServiceImpl implements RegistrationService

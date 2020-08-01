@@ -21,7 +21,7 @@ import javax.validation.constraints.*;
 /**
  * User entity to persist data to the database
  *
- * @author Gayathri
+ * @author Hari
  */
 @Data
 @NoArgsConstructor

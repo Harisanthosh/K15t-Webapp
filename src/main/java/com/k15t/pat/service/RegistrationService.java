@@ -6,7 +6,7 @@ import com.k15t.pat.model.User;
 /**
  * Registration service to perform crud operations
  *
- * @author gayathri
+ * @author Hari
  */
 public interface RegistrationService
 {

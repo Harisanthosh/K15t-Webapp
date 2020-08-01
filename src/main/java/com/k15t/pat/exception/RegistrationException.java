@@ -3,7 +3,7 @@ package com.k15t.pat.exception;
 /**
  * Generic Exception class to handle user registration related exceptions
  *
- * @author Gayathri
+ * @author Hari
  */
 public class RegistrationException extends Exception {
 

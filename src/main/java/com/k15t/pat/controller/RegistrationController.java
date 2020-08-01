@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * This Controller is to perform user registration rest operations
  *
- * @author gayathri
+ * @author Hari
  */
 @Controller
 @RequestMapping
