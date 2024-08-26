@@ -86,7 +86,7 @@
         <java.version>1.8</java.version>
         <start-class>com.k15t.pat.ApplicationBootstrap</start-class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <swagger.version>2.9.2</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
         <swagger-annotations.version>1.5.21</swagger-annotations.version>
         <swagger-models.version>1.5.21</swagger-models.version>
     </properties>
